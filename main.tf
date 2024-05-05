@@ -1,5 +1,5 @@
 module "gke_cluster" {
-  source         = "github.com/laskavtsev-dev/terraform"
+  source         = "github.com/laskavtsev-dev/tf-google-gke-cluster"
   GOOGLE_REGION  = var.GOOGLE_REGION
   GOOGLE_PROJECT = var.GOOGLE_PROJECT
   GKE_NUM_NODES  = 2
